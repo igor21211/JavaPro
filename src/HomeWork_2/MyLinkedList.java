@@ -198,6 +198,7 @@ public class MyLinkedList<T> implements List<T> {
      */
     @Override
     public boolean isEmpty() {
+
         return first == null ? true : false;
     }
 
